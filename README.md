@@ -21,7 +21,7 @@ All read-only. No API keys. No auth.
 ### macOS / Linux
 
 ```bash
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/graykode/abtop/releases/latest/download/abtop-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/shaoq/abtop/releases/latest/download/abtop-installer.sh | sh
 ```
 
 ### Cargo
@@ -35,14 +35,14 @@ cargo install abtop
 Native support — no WSL required. Uses `sysinfo` for process info and `netstat -ano` for listening ports.
 
 ```powershell
-powershell -c "irm https://github.com/graykode/abtop/releases/latest/download/abtop-installer.ps1 | iex"
+powershell -c "irm https://github.com/shaoq/abtop/releases/latest/download/abtop-installer.ps1 | iex"
 ```
 
 Or `cargo install abtop` from any terminal with Git in PATH. Claude Code config is resolved automatically from `%USERPROFILE%\.claude`.
 
 ### Other
 
-Pre-built binaries for all platforms are available on the [GitHub Releases](https://github.com/graykode/abtop/releases) page.
+Pre-built binaries for all platforms are available on the [GitHub Releases](https://github.com/shaoq/abtop/releases) page.
 
 ## Usage
 
