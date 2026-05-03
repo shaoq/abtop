@@ -188,7 +188,7 @@ if 'five_hour' in out or 'seven_day' in out:
 printf '%s' "$INPUT" | {existing_command}
 
 wait
-"#, abtop_script = abtop_script, existing_command = existing_command)
+"#, existing_command = existing_command)
 }
 
 fn claude_dir() -> PathBuf {
