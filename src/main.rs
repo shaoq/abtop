@@ -293,7 +293,7 @@ fn run_update() -> io::Result<()> {
             "--proto", "=https",
             "--tlsv1.2",
             "-LsSf",
-            "https://github.com/graykode/abtop/releases/latest/download/abtop-installer.sh",
+            "https://github.com/shaoq/abtop/releases/latest/download/abtop-installer.sh",
             "-o",
         ])
         .arg(&installer_path)
